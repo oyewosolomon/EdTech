@@ -45,7 +45,10 @@ export default function Home() {
       <Features/>
       <HowItWorks/>
       <Stats/>
+      <CaseStudies/>
+      <Partners/>
       <Pricing/>
+      <FAQ/>
     
 
       <Testimonials/>
