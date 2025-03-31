@@ -257,12 +257,7 @@ const Contact: React.FC = () => {
                     </a>
                   </div>
                   
-                  <div className="flex items-center gap-3">
-                    <Phone className="h-5 w-5 text-indigo-600" />
-                    <a href="tel:+1-800-123-4567" className="text-gray-600 hover:text-indigo-600">
-                      +1 (800) 123-4567
-                    </a>
-                  </div>
+                  
                 </div>
               </div>
             </div>

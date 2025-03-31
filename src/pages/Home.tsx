@@ -49,11 +49,6 @@ export default function Home() {
       <Partners/>
       <Pricing/>
       <FAQ/>
-    
-
-      <Testimonials/>
-
-
       <Contact/>
       <Footer/>
     </main>
