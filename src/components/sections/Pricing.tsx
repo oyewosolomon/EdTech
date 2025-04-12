@@ -9,8 +9,8 @@ const Pricing = () => {
       name: "Starter",
       description: "Perfect for small institutions getting started with analytics",
       price: {
-        monthly: 299,
-        annual: 249
+        monthly: "60,000",
+        annual: "110,000"
       },
       features: [
         "Up to 500 students",
@@ -27,8 +27,8 @@ const Pricing = () => {
       name: "Professional",
       description: "Ideal for growing institutions needing advanced features",
       price: {
-        monthly: 599,
-        annual: 499
+        monthly: "260,000",
+        annual: "330,000"
       },
       features: [
         "Up to 2,000 students",
@@ -47,8 +47,8 @@ const Pricing = () => {
       name: "Enterprise",
       description: "Custom solutions for large educational institutions",
       price: {
-        monthly: 1299,
-        annual: 999
+        monthly: "400,000",
+        annual: "600,000"
       },
       features: [
         "Unlimited students",
@@ -121,7 +121,7 @@ const Pricing = () => {
                 <div className="mt-6">
                   <div className="flex items-baseline">
                     <span className="text-4xl font-bold">
-                      ${isAnnual ? plan.price.annual : plan.price.monthly}
+                    ₦{isAnnual ? plan.price.annual : plan.price.monthly}
                     </span>
                     <span className={`ml-2 ${plan.highlight ? 'text-indigo-100' : 'text-gray-500'}`}>
                       /month
